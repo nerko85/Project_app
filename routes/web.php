@@ -45,3 +45,5 @@
 Route::get('/projects/api', 'ProjectsController@api');
 Route::resource('projects','ProjectsController');
 
+Route::patch('/tasks/{task}', 'TasksController@update');
+
